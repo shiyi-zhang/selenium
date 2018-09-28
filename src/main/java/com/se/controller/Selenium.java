@@ -76,7 +76,7 @@ public class Selenium {
         }
         System.setProperty("webdriver.chrome.driver", path);
         List<WordEntry> text = selenium.getText();
-//        selenium.zhimeng(text);
+        selenium.zhimeng(text);
     }
 
     public List<WordEntry> getText() throws Exception {
